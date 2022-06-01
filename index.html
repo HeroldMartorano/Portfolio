@@ -12,9 +12,15 @@
     <title>Portifólio</title>
 </head>
 <body>
-    
     <div class="container">
-        <header>
+        <div class="burguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header id="home">
             <div class="wrapper">
                 <img src="img/bg.jpg" alt="Código Imagem">
             </div>
@@ -24,7 +30,25 @@
                 <button>Saiba Mais</button>
             </div>
         </header>
+
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#knowledge" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projects" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contact" class="menu-link">Contanto</a></li>
+                    <li class="menu-item"><a href="#Budget" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
