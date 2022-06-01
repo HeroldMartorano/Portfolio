@@ -9,7 +9,7 @@ O controle das tarefas desse projeto será realizado no GitHub
 
 :package: nova funcionalidades 
 
-:up atualização 
+:up: atualização 
 
 :beatle: correção de bug 
 
