@@ -9,6 +9,6 @@ O controle das tarefas desse projeto será realizado no GitHub
 ## Ícones
 
 - :package: nova funcionalidades
-- :up atualização
+- :up: atualização
 - :beetle: correção de bug
 - :checkered_flag: release
